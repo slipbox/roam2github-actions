@@ -35,8 +35,8 @@ jobs:
           ROAM_EMAIL: ${{ secrets.ROAM_EMAIL }}
           ROAM_PASSWORD: ${{ secrets.ROAM_PASSWORD }}
           ROAM_GRAPH: ${{ secrets.ROAM_GRAPH }}
-          BACKUP_EDN: true
-          BACKUP_JSON: true
+          BACKUP_EDN: false
+          BACKUP_JSON: false
           BACKUP_MARKDOWN: true
 
       - name: Commit Changes
